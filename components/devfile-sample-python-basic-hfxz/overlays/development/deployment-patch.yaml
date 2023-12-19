@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-hfxz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-lhax-tenant/appstudio/devfile-sample-python-basic-hfxz@sha256:1040361974405a28380252911157f1183ab919241f9e8cde23cd16b5ec493f0c
+        name: my-python
+        resources: {}
+status: {}
