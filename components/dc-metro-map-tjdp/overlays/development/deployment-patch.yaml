@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-tjdp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-lhax-tenant/appstudio/dc-metro-map-tjdp@sha256:642a3b32b8fc14483e858b586161ba51055c16b41660ebe7a2de61c522ab2df5
+        name: my-nodejs
+        resources: {}
+status: {}
