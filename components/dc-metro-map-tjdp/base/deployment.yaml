@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-tjdp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/push-pyxis-lhax-tenant/appstudio/dc-metro-map-tjdp@sha256:642a3b32b8fc14483e858b586161ba51055c16b41660ebe7a2de61c522ab2df5
         name: my-nodejs
         ports:
         - containerPort: 3001
